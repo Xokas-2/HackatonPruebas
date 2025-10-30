@@ -3,6 +3,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import '/home_page_content.dart'; 
 import '/categories_page.dart';
 import '/search_page.dart';
+import 'login_screen.dart';
 import '/profile_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     const PrincipalPage(),
     const CategoriesPage(),
     const SearchPage(),
-    const ProfilePage(),
+    const LoginScreen(),
   ];
 
 
@@ -57,7 +58,7 @@ class _HomePageState extends State<HomePage> {
     
     _pageController.animateToPage(
       index,
-      duration: const Duration(milliseconds: 200),
+      duration: const Duration(milliseconds: 100),
       curve: Curves.easeOut,
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prueba2app/home_page.dart';
+
+import 'package:prueba2app/welcome_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       theme: ThemeData( useMaterial3: true),
       debugShowCheckedModeBanner: false,
-      home:HomePage()
+      home:WelcomeScreen()
     );
   }
 }
