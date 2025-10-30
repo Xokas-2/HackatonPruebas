@@ -7,7 +7,7 @@ class CategoriesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Text(
-        'Categorias', 
+        'Categorias yeyex', 
         style: TextStyle(fontSize: 45, color: Colors.green)
       )
     );
