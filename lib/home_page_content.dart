@@ -14,7 +14,7 @@ class PrincipalPage extends StatelessWidget {
 
   // Lista de datos de ejemplo para simular los elementos de la lista
   final List<Programas> programastList = const [
-    Programas(nombre: 'Pensión Mujeres Bienestar', desc: 'Click para más detalles.'),
+    Programas(nombre: 'abortos erubiel', desc: 'Click para más detalles.'),
     Programas(nombre: 'Beca Universal de Educación Básica Rita Cetina', desc: 'Click para más detalles.'),
     Programas(nombre: 'Salud Casa por Casa', desc: 'Click para más detalles.'),
     Programas(nombre: 'Pensión Para el Bienestar de las Perosnas Mayores', desc: 'Click para más detalles.'),
